@@ -1,0 +1,4 @@
+// @import 'base/variables'; //Forma vieja
+// @import 'contenido/contenido'; //Forma vieja
+@use 'base'; //forma nueva pero los demas archivos deben tener el @forward
+@use 'layout';
